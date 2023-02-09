@@ -1,0 +1,57 @@
+body{
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin:0;
+    background-color: #ffe4c1;
+}
+#navbar{
+    width: 100%;
+    margin: 2px 0px;
+    margin-top:20px;
+    padding-bottom:20px;
+    text-align: right;
+    border-bottom: 1px solid #dadce0;
+}
+#navbar th{
+    font-size: 1.25rem;
+    width:240px;
+    text-align: center;
+}
+#navbar th a{
+    color: #5f6368 ;
+}
+#navbar th a:hover{
+    color: #202124;
+    border-bottom: 5px solid #ec9f05;
+}
+#navbar-brand{
+    float:left;
+    margin-left:30px;
+}
+#navbar-brand img{
+    width:40px;
+    height:40px;
+}
+#navbar-brand:hover{
+    border-bottom: none !important;
+}
+.row{
+    background-image:linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    height:70vh;
+    padding-top:20vh;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.home-picture {
+    text-align: center;
+}
+h1{
+    font-size:4rem;
+    color:white;
+    text-align: left;
+}
+h2{
+    color:white;
+}

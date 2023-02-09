@@ -1,0 +1,47 @@
+.resolved {
+  text-decoration: none;
+  background-color: #28d930;
+  padding: 10px 40px;
+}
+.unresolved {
+  text-decoration: none;
+  background-color: #fadc48;
+  padding: 10px 40px;
+}
+.signout {
+  text-decoration: none;
+  background-color: #e6807d !important;
+  padding: 10px 40px;
+}
+.complaints_container {
+  background-color: #ffd196;
+  padding: 50px 150px;
+  margin: 0px 200px;
+  margin-top: 50px;
+}
+.complaint_form {
+  background-color: white;
+}
+.side-by-side {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.side-by-side > * {
+  width: 100%;
+}
+.invisible {
+  display: none;
+}
+.action {
+  width: 100%;
+}
+.update-complaint-button {
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 15px;
+}
+.button-types {
+  display: flex;
+  justify-content: right;
+}

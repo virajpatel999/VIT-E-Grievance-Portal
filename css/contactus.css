@@ -1,0 +1,21 @@
+#contactus{
+    margin-top: 50px;
+    padding: 20px 0px;    
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactus-content{
+    padding: 20px 100px;
+    background-color: #F38203;
+    border-radius:20px;
+}
+.contactus-content p{
+    font-size:1.5rem;
+    color:white;
+    font-weight:600;
+}

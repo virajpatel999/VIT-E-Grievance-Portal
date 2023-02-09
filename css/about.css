@@ -1,0 +1,38 @@
+.banner-behind {
+    background-image: repeating-linear-gradient( 
+-45deg
+, transparent 0 5px, #FE5300 5px 6px );
+    border: 1px solid #FE5300;
+    padding-top: 4px;
+    padding-left: 4px;
+    height: 6vh;
+    width: clamp(170px, 12vw, 250px);
+    margin-bottom: 30px;
+}
+.banner-front {
+    background-color: #EC9F05;
+    color: white;
+    height: 6vh;
+    width: clamp(170px, 12vw, 250px);
+    text-align: center;
+    padding-top: 2px;
+}
+.banner-front h2{
+    margin-top: 0px;
+    font-size:2rem;
+}
+
+#about{
+    margin-top: 50px;
+    padding: 20px 0px;    
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vision{
+    font-size:1.5rem;
+    padding:0px 50px;
+}

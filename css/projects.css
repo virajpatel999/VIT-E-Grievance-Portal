@@ -1,0 +1,15 @@
+#projects{
+    margin-top: 50px;
+    padding: 20px 0px;    
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.project-content >*{
+    margin: 0px 50px;
+    height: 20rem;
+    width: 45;
+}
